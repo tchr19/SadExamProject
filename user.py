@@ -1,3 +1,7 @@
+# The user class is the server side database of registered users.
+# The class contains getters which can be used for authorization, by checking the user ID and role.
+# The class also contains setters which can be used with the clint input, to register new users.
+
 class user:
     def __init__(self, name, ID, role, username, password):
         self.name = name

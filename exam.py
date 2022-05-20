@@ -1,3 +1,5 @@
+# The exam class is responsible for containing all high level information about a registered exam.
+# The constructor takes various arguments regarding practical information about the exam, which should be inputted when the exam is registered.
 class exam:
     grade = None
     handIn = None
