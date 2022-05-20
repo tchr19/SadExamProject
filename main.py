@@ -29,6 +29,7 @@ print(currentUser)
 
 # Function that checks if the user is a teacher.
 # Similar functions for other roles should be made, and used in a wrapper to check for authorization when requesting to use a function
+# CurrrentUser[0] is ID (int) while CurrentUser[1] is role (string)
 def checkAuthTeacher():
     for us in users:
         if currentUser[1] == 'teacher':

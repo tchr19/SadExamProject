@@ -1,5 +1,6 @@
 # The user class is the server side database of registered users.
-# The class contains getters which can be used for authorization, by checking the user ID and role.
+# The class contains getters which can be used for authorization, by checking the user ID and 
+# ID in the authorization function or wrapper in a later implementation.
 # The class also contains setters which can be used with the clint input, to register new users.
 
 class user:
